@@ -1,7 +1,7 @@
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import PropTypes from "prop-types";
-import "./Pagination.css";
+import "./pagination.css";
 
 function Pagination({ users, currentPage, setCurrentPage, pageSize }) {
   //Pagination constants
