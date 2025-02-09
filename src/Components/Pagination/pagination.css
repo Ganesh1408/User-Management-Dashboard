@@ -1,0 +1,17 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-number {
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+  }
+  .active {
+    border: 2px solid red;
+  }
+  

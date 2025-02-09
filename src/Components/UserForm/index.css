@@ -1,0 +1,116 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+@media  (min-width: 768px) {
+    .form-container{
+        height:100vh;
+        height:100%;
+        width:100vw;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin-top: 40px;
+        
+        
+        
+    }
+    .user-id-dropdown{
+        margin-bottom:10px;
+        border-radius:4px;
+    }
+    
+    .input-container{
+       border:1px solid white;
+       width:600px;
+       height:500px;
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border-radius:16px;
+       
+    }
+    label{
+        font-size: 14px;
+        font-weight: bold;
+        min-width: 120px;
+        color:white;
+    }
+    .select{
+        padding:5px;
+        width:300px;
+        max-width: 500px;
+        
+    }
+    
+    .form-group {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+        max-width: 400px;
+        
+    
+    }
+    .inputElement{
+    
+        
+        width:100%;
+        max-width: 500px;
+        padding: 5px;
+        margin-bottom: 8px;
+        border: 1px solid white;
+        border-radius: 4px;
+        font-size: 14px;
+        
+        
+        
+        
+    }
+    
+    .form-button{
+        padding:12px 24px;
+        border-radius:7px;
+        color:white;
+        font-size:16px;
+        font-weight:700;
+        background-color: cornflowerblue;
+        border:none;
+    
+    }
+    .form-button:hover{
+        background-color: blue;
+    }
+    .success-message-visible{
+        color:green;
+        font-size:16px;
+    }
+    .success-message-hidden{
+        display:none
+    }
+    .error-message-visible{
+        color:red;
+        font-size:16px;
+        
+    }
+    .error-message{
+        color:red;
+        font-size:12px;
+        margin-top:2px;
+        padding:0px;
+        text-align: end;
+    }
+    .error-message-hidden{
+        
+        display: none;
+    }
+    
+}
+
+

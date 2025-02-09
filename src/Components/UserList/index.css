@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.user-section-container {
+  width: 100vw;
+  height: 100%;
+
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+.userContainer {
+  height: 260px;
+  width: 320px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid red;
+  color: black;
+  font-weight: 700;
+}
+.user-interaction-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.user-interaction-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.add-user {
+  position: absolute;
+  top: 130px;
+
+  right: 180px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.no-underline {
+  text-decoration: none;
+  /* color:inherit; */
+}
+.UserDetails-container {
+  text-align: start;
+  padding: 0px 20px;
+  line-height: 16px;
+}
+
+
+.success-message {
+  font-size: 16px;
+  color: green;
+  text-align: center;
+}
+.error-message {
+  font-size: 16px;
+  color: red;
+  text-align: center;
+}
